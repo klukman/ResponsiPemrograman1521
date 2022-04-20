@@ -10,24 +10,9 @@ namespace ResponsiPemrograman1521
         public string Nama { get; set; }
         public int GajiBulanan { get; set; }
 
-        public Karyawan(int nik, string nama, int gaji)
-        {
-            this.NIK = nik;
-            this.Nama = nama;
-
-            if (gaji < 0)
-            {
-                this.GajiBulanan = 0;
-            }
-            else
-            {
-                this.GajiBulanan = gaji;
-            }
-
-        }
-
         public Karyawan()
         {
+
         }
     }
 }

@@ -20,8 +20,8 @@ namespace ResponsiPemrograman1521
 
             Console.WriteLine("No \tNIK/ Nama\t \t Gaji");
             Console.WriteLine("--------------------------------------------------------");
-            Console.WriteLine("1.   {0}\t{1} \t \t {2}      ", karyawan.NIK, karyawan.Nama, karyawan.GajiBulanan);
-            Console.WriteLine("2.   {0}\t{1} \t \t {2}      ", karyawan2.NIK, karyawan2.Nama, karyawan2.GajiBulanan);
+            Console.WriteLine("1. {0}\t{1} \t \t {2} ", karyawan.NIK, karyawan.Nama, karyawan.GajiBulanan);
+            Console.WriteLine("2. {0}\t{1} \t \t {2} ", karyawan2.NIK, karyawan2.Nama, karyawan2.GajiBulanan);
 
             Console.WriteLine("\nAsyiiiiik kenaikan gaji 10%!!\n");
 
